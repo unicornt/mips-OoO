@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="595550000000fs"></ZoomStartTime>
+      <ZoomEndTime time="596018000001fs"></ZoomEndTime>
+      <Cursor1Time time="595940000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/cpu_tb/cpu_clk" type="logic">
+      <obj_property name="ElementShortName">cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">cpu_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu_mem_write" type="logic">
+      <obj_property name="ElementShortName">cpu_mem_write</obj_property>
+      <obj_property name="ObjectShortName">cpu_mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ihit" type="logic">
+      <obj_property name="ElementShortName">ihit</obj_property>
+      <obj_property name="ObjectShortName">ihit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcAF" type="array">
+      <obj_property name="ElementShortName">pcAF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcAF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcBF" type="array">
+      <obj_property name="ElementShortName">pcBF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcBF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcCF" type="array">
+      <obj_property name="ElementShortName">pcCF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcCF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcSrcPredictedF" type="logic">
+      <obj_property name="ElementShortName">pcSrcPredictedF</obj_property>
+      <obj_property name="ObjectShortName">pcSrcPredictedF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/need_update" type="logic">
+      <obj_property name="ElementShortName">need_update</obj_property>
+      <obj_property name="ObjectShortName">need_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/real_taken" type="logic">
+      <obj_property name="ElementShortName">real_taken</obj_property>
+      <obj_property name="ObjectShortName">real_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcSrcRealD" type="logic">
+      <obj_property name="ElementShortName">pcSrcRealD</obj_property>
+      <obj_property name="ObjectShortName">pcSrcRealD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/branchF" type="logic">
+      <obj_property name="ElementShortName">branchF</obj_property>
+      <obj_property name="ObjectShortName">branchF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/branchD" type="logic">
+      <obj_property name="ElementShortName">branchD</obj_property>
+      <obj_property name="ObjectShortName">branchD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcSrcD" type="logic">
+      <obj_property name="ElementShortName">pcSrcD</obj_property>
+      <obj_property name="ObjectShortName">pcSrcD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/equalD" type="logic">
+      <obj_property name="ElementShortName">equalD</obj_property>
+      <obj_property name="ObjectShortName">equalD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcSrcPredictedD" type="logic">
+      <obj_property name="ElementShortName">pcSrcPredictedD</obj_property>
+      <obj_property name="ObjectShortName">pcSrcPredictedD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcSrcPredictedF" type="logic">
+      <obj_property name="ElementShortName">pcSrcPredictedF</obj_property>
+      <obj_property name="ObjectShortName">pcSrcPredictedF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/insF" type="array">
+      <obj_property name="ElementShortName">insF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">insF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/flushD" type="logic">
+      <obj_property name="ElementShortName">flushD</obj_property>
+      <obj_property name="ObjectShortName">flushD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/instr_adr" type="array">
+      <obj_property name="ElementShortName">instr_adr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_adr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/isbranch" type="logic">
+      <obj_property name="ElementShortName">isbranch</obj_property>
+      <obj_property name="ObjectShortName">isbranch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/need_update" type="logic">
+      <obj_property name="ElementShortName">need_update</obj_property>
+      <obj_property name="ObjectShortName">need_update</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/update_adr" type="array">
+      <obj_property name="ElementShortName">update_adr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">update_adr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/real_taken" type="logic">
+      <obj_property name="ElementShortName">real_taken</obj_property>
+      <obj_property name="ObjectShortName">real_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/predict_taken" type="logic">
+      <obj_property name="ElementShortName">predict_taken</obj_property>
+      <obj_property name="ObjectShortName">predict_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/state" type="array">
+      <obj_property name="ElementShortName">state[7:0][1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0][1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/tag" type="array">
+      <obj_property name="ElementShortName">tag[7:0][9:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[7:0][9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/is_taken" type="array">
+      <obj_property name="ElementShortName">is_taken[7:0]</obj_property>
+      <obj_property name="ObjectShortName">is_taken[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/hit" type="array">
+      <obj_property name="ElementShortName">hit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hit[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/thit" type="logic">
+      <obj_property name="ElementShortName">thit</obj_property>
+      <obj_property name="ObjectShortName">thit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/ENTRIES" type="array">
+      <obj_property name="ElementShortName">ENTRIES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ENTRIES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/bpb/TAG_WIDTH" type="array">
+      <obj_property name="ElementShortName">TAG_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TAG_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+addi $v0,$0,10
+addi $v1,$0,11
+sw $v0, 0($0)
+sw $v0, 64($0)
+sw $v0, 128($0)
+sw $v0, 192($0)
+sw $v1, 0($0)
+nop
+nop
+nop
+nop

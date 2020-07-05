@@ -1,0 +1,121 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 11920
+License: Customer
+
+Current time: 	Sun Jul 05 16:20:23 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 394 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	unicornt
+User home directory: C:/Users/unicornt
+User working directory: C:/Users/unicornt/Desktop/ass4/OoO
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/unicornt/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/unicornt/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/unicornt/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/unicornt/Desktop/ass4/OoO/vivado.log
+Vivado journal file location: 	C:/Users/unicornt/Desktop/ass4/OoO/vivado.jou
+Engine tmp dir: 	C:/Users/unicornt/Desktop/ass4/OoO/.Xil/Vivado-11920-DESKTOP-7DD44P1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 634 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\unicornt\Desktop\ass4\OoO\mips-cache.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/unicornt/Desktop/ass4/OoO/mips-cache.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/unicornt/Desktop/18307130102 ass3 part II/mips-cache' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 89 MB (+90741kb) [00:00:08]
+// [Engine Memory]: 575 MB (+451262kb) [00:00:08]
+// [GUI Memory]: 102 MB (+9470kb) [00:00:08]
+// [Engine Memory]: 611 MB (+7503kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  1849 ms.
+// Project name: mips-cache; location: C:/Users/unicornt/Desktop/ass4/OoO; part: xc7a100tcsg324-1
+// [Engine Memory]: 644 MB (+3281kb) [00:00:10]
+dismissDialog("Open Project"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 51 MB. Current time: 7/5/20, 4:20:24 PM CST
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 251 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (Q, cp)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// F (cp): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1496 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 667 MB. GUI used memory: 57 MB. Current time: 7/5/20, 4:24:39 PM CST
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (C, F)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, General]", 0, false); // L (C, F)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Settings"); // F (cp)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cp)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// [GUI Memory]: 125 MB (+18657kb) [00:07:19]
