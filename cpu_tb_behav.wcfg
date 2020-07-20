@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="292453666666fs"></ZoomStartTime>
+      <ZoomEndTime time="292749266667fs"></ZoomEndTime>
+      <Cursor1Time time="292700000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject fp_name="/cpu_tb/cpu_clk" type="logic">
+      <obj_property name="ElementShortName">cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">cpu_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/finish" type="logic">
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mem_write1" type="logic">
+      <obj_property name="ElementShortName">mem_write1</obj_property>
+      <obj_property name="ObjectShortName">mem_write1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mem_write2" type="logic">
+      <obj_property name="ElementShortName">mem_write2</obj_property>
+      <obj_property name="ObjectShortName">mem_write2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcNextF_v" type="array">
+      <obj_property name="ElementShortName">pcNextF_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcNextF_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcNextF_v1" type="array">
+      <obj_property name="ElementShortName">pcNextF_v1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcNextF_v1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcNextF_u" type="array">
+      <obj_property name="ElementShortName">pcNextF_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcNextF_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/insD_u" type="array">
+      <obj_property name="ElementShortName">insD_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">insD_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/insD_v" type="array">
+      <obj_property name="ElementShortName">insD_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">insD_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/rf/r" type="array">
+      <obj_property name="ElementShortName">r[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/esrcAD_u" type="array">
+      <obj_property name="ElementShortName">esrcAD_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">esrcAD_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/esrcAD_v" type="array">
+      <obj_property name="ElementShortName">esrcAD_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">esrcAD_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/esrcBD_v" type="array">
+      <obj_property name="ElementShortName">esrcBD_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">esrcBD_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/writeRegD_u" type="array">
+      <obj_property name="ElementShortName">writeRegD_u[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeRegD_u[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/ustallbrj_v" type="logic">
+      <obj_property name="ElementShortName">ustallbrj_v</obj_property>
+      <obj_property name="ObjectShortName">ustallbrj_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardAD_u" type="array">
+      <obj_property name="ElementShortName">forwardAD_u[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardAD_u[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardBD_u" type="array">
+      <obj_property name="ElementShortName">forwardBD_u[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardBD_u[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardAE_u" type="array">
+      <obj_property name="ElementShortName">forwardAE_u[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardAE_u[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardBE_u" type="array">
+      <obj_property name="ElementShortName">forwardBE_u[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardBE_u[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/srcAE_u" type="array">
+      <obj_property name="ElementShortName">srcAE_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcAE_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/srcBE_u" type="array">
+      <obj_property name="ElementShortName">srcBE_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcBE_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluCtE_u" type="array">
+      <obj_property name="ElementShortName">aluCtE_u[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtE_u[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOut_u" type="array">
+      <obj_property name="ElementShortName">aluOut_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOut_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutE_u" type="array">
+      <obj_property name="ElementShortName">aluOutE_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutE_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutM_u" type="array">
+      <obj_property name="ElementShortName">aluOutM_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutM_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutW_u" type="array">
+      <obj_property name="ElementShortName">aluOutW_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutW_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcF_u" type="array">
+      <obj_property name="ElementShortName">pcF_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcF_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/pcF_v" type="array">
+      <obj_property name="ElementShortName">pcF_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcF_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardAD_v" type="array">
+      <obj_property name="ElementShortName">forwardAD_v[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardAD_v[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardBD_v" type="array">
+      <obj_property name="ElementShortName">forwardBD_v[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardBD_v[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardAE_v" type="array">
+      <obj_property name="ElementShortName">forwardAE_v[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardAE_v[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/forwardBE_v" type="array">
+      <obj_property name="ElementShortName">forwardBE_v[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardBE_v[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/srcAE_v" type="array">
+      <obj_property name="ElementShortName">srcAE_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcAE_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/srcBE_v" type="array">
+      <obj_property name="ElementShortName">srcBE_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcBE_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluCtE_v" type="array">
+      <obj_property name="ElementShortName">aluCtE_v[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtE_v[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOut_v" type="array">
+      <obj_property name="ElementShortName">aluOut_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOut_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutE_v" type="array">
+      <obj_property name="ElementShortName">aluOutE_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutE_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutM_v" type="array">
+      <obj_property name="ElementShortName">aluOutM_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutM_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/aluOutW_v" type="array">
+      <obj_property name="ElementShortName">aluOutW_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOutW_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/stallF_u" type="logic">
+      <obj_property name="ElementShortName">stallF_u</obj_property>
+      <obj_property name="ObjectShortName">stallF_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/stallD_u" type="logic">
+      <obj_property name="ElementShortName">stallD_u</obj_property>
+      <obj_property name="ObjectShortName">stallD_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/flushE_u" type="logic">
+      <obj_property name="ElementShortName">flushE_u</obj_property>
+      <obj_property name="ObjectShortName">flushE_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/stallF_v" type="logic">
+      <obj_property name="ElementShortName">stallF_v</obj_property>
+      <obj_property name="ObjectShortName">stallF_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/stallD_v" type="logic">
+      <obj_property name="ElementShortName">stallD_v</obj_property>
+      <obj_property name="ObjectShortName">stallD_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/flushE_v" type="logic">
+      <obj_property name="ElementShortName">flushE_v</obj_property>
+      <obj_property name="ObjectShortName">flushE_v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mips/dp/rf/r" type="array">
+      <obj_property name="ElementShortName">r[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

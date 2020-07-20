@@ -1,0 +1,42 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3e993513e5b04d0c8186f033d3bcfa49 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ctUnit
+Compiling module xil_defaultlib.flopre(W=32)
+Compiling module xil_defaultlib.mux(W=32)
+Compiling module xil_defaultlib.floprec(W=32)
+Compiling module xil_defaultlib.regFiles
+Compiling module xil_defaultlib.mux3(W=32)
+Compiling module xil_defaultlib.mux(W=5)
+Compiling module xil_defaultlib.signExt
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.floprc(W=64)
+Compiling module xil_defaultlib.floprc(W=15)
+Compiling module xil_defaultlib.floprc(W=32)
+Compiling module xil_defaultlib.floprc(W=3)
+Compiling module xil_defaultlib.floprc(W=10)
+Compiling module xil_defaultlib.mux4(W=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.flopr
+Compiling module xil_defaultlib.flopr(W=5)
+Compiling module xil_defaultlib.flopr(W=4)
+Compiling module xil_defaultlib.flopr(W=2)
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.dataPath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.cpu_tb
+WARNING: [XSIM 43-3373] "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 48. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 72. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 140. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 150. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 168. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav

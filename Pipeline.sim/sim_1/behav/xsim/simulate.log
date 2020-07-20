@@ -1,0 +1,115 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+========== Test: ad hoc ==========
+WARNING: file ../../../../benchtest/ad hoc/ad hoc.data could not be opened
+========== In init ==========
+26 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] ad hoc
+
+========== Test: factorial ==========
+WARNING: file ../../../../benchtest/factorial/factorial.data could not be opened
+========== In init ==========
+35 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] factorial
+
+========== Test: bubble sort ==========
+========== In init ==========
+25 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] bubble sort
+
+========== Test: gcd ==========
+WARNING: file ../../../../benchtest/gcd/gcd.data could not be opened
+========== In init ==========
+22 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] gcd
+
+========== Test: quick multiply ==========
+WARNING: file ../../../../benchtest/quick multiply/quick multiply.data could not be opened
+========== In init ==========
+21 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] quick multiply
+
+========== Test: bisection ==========
+========== In init ==========
+26 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] bisection
+
+========== Test: en & clear ==========
+WARNING: file ../../../../benchtest/en & clear/en & clear.data could not be opened
+========== In init ==========
+18 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] en & clear
+
+========== Test: i-type ==========
+WARNING: file ../../../../benchtest/i-type/i-type.data could not be opened
+========== In init ==========
+22 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] i-type
+
+========== Test: mutual recursion ==========
+WARNING: file ../../../../benchtest/mutual recursion/mutual recursion.data could not be opened
+========== In init ==========
+59 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] mutual recursion
+
+========== Test: testjr ==========
+WARNING: file ../../../../benchtest/testjr/testjr.data could not be opened
+========== In init ==========
+68 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] testjr
+
+========== Test: random write ==========
+WARNING: file ../../../../benchtest/random write/random write.data could not be opened
+========== In init ==========
+21 instructions in total
+========== In runtime checker ==========
+successfully pass runtime checker
+========== In memory judge ==========
+successfully pass memory judge
+[OK] random write
+
+[Done]
+
+CPI = 0.895890
+
+$finish called at time : 292700 ns : File "C:/Users/unicornt/Desktop/ass4/OoO/benchtest/cpu_tb.sv" Line 207
